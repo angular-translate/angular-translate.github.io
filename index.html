@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/styles.css">
 
     <script src="js/angular.min.js"></script>
-    <script src="http://rawgithub.com/PascalPrecht/bower-angular-translate/master/angular-translate.min.js"></script>
+    <script src="http://rawgithub.com/angular-translate/bower-angular-translate/master/angular-translate.min.js"></script>
     <script src="js/docs-setup.js"></script>
     <script src="js/docs.js"></script>
     <script>
@@ -42,7 +42,7 @@
 
       app.controller('Ctrl', function ($scope, $translate) {
         $scope.changeLanguage = function (key) {
-          $translate.uses(key);
+          $translate.use(key);
         };
       });
     </script>
@@ -55,15 +55,15 @@
           <div class="container">
             <ul class="nav">
             <li>
-            <a href="http://pascalprecht.github.io/angular-translate/docs/en/#/guide"><i class="icon-book"></i> Getting Started</a>
+            <a href="http://angular-translate.github.io/docs"><i class="icon-book"></i> Getting Started</a>
               </li>
               <li>
-              <a href="http://pascalprecht.github.io/angular-translate/docs/en/#/api"><i class="icon-book"></i> API</a>
+            <a href="http://angular-translate.github.io/docs/#/api"><i class="icon-book"></i> API</a>
             </li>
           </ul>
           <ul class="nav pull-right">
-            <li><a href="http://pascalprecht.github.io/angular-translate/plato"><i class="icon-signal"></i> Plato Report</a></li>
-            <li><a href="http://github.com/PascalPrecht/angular-translate"><i class="icon-github-sign"></i> View on GitHub</a></li>
+            <li><a href="http://angular-translate.github.io/docs/plato"><i class="icon-signal"></i> Plato Report</a></li>
+            <li><a href="http://github.com/angular-translate/angular-translate"><i class="icon-github-sign"></i> View on GitHub</a></li>
           </ul>
           </div>
         </div>
@@ -74,8 +74,8 @@
         <div class="container">
           <img src="img/logo/angular-translate-alternative/angular-translate_alternative_medium2.png">
           <p class="tagline">i18n for your Angular apps, made easy</p>
-          <p><a href="https://github.com/PascalPrecht/bower-angular-translate/releases" class="btn btn-primary btn-large"><i class="icon-download"></i> Download</a>
-          <a href="http://github.com/PascalPrecht/angular-translate" class="btn btn-primary btn-large"><i class="icon-github-sign"></i> View on GitHub</a></p>
+          <p><a href="https://github.com/angular-translate/bower-angular-translate/releases" class="btn btn-primary btn-large"><i class="icon-download"></i> Download</a>
+          <a href="http://github.com/angular-translate/angular-translate" class="btn btn-primary btn-large"><i class="icon-github-sign"></i> View on GitHub</a></p>
         </div>
       </div>
       <div class="divider"></div>
