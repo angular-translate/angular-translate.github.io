@@ -165,9 +165,9 @@ button:hover {
 }
 
 .companies li {
-  display: block;
-  vertical-align: middle;
+  display: inline-block;
   margin-top: 25px;
+  width: 40%;
 }
 
 .peeps h1 {
